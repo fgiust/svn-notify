@@ -3,6 +3,10 @@ Revision history for Perl extension SVN::Notify
 2.84
       - Added `--smtp-tls` to the output of `man svnnotify`.
       - Removed `--smtp-authtype` from the output of `man svnnotify`.
+      - ColorDiff now outputs inline css by default, adding compatibily with
+        many web mail clients like gmail. Added by Fabrizio Giustina,
+        original patch by "teguheko" submitted through 
+        https://rt.cpan.org/Public/Bug/Display.html?id=52121
 
 2.83  2011-10-29T00:19:07Z
       - Added the `smtp_port` parameter and accompanying `--smtp-port` option.
